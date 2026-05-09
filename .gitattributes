@@ -1,2 +1,26 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Large data files - do not upload to GitHub
+data/
+models/X_train.npy
+models/X_test.npy
+models/y_train.npy
+models/y_test.npy
+models/ids_rf_model.pkl
+models/demo_X.npy
+models/demo_labels.npy
+
+# Ignore large dataset files
+data/
+*.csv
+*.npy
+*.zip
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# OS files
+.DS_Store
+Thumbs.db
